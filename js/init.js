@@ -27,12 +27,12 @@ const display = (courses) => {
         for (let j = 0; j < 6 && ((i*6+j) < courses.length); j++) {
             let element = document.createElement('div');
             element.className = 'card m-2 course-container';
-            element.style.width = '16rem';
+            element.style.width = '15.25rem';
             element.innerHTML = `
                 <img src="` + courses[i*6+j].image + `" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="course-title">` + courses[i*6+j].title + `</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet nandi consectetur adipisicing elit.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet nandi consectetur adipisicing.</p>
                 <ul class="my-1">
                     <li><span>Course Duration: </span> ` + courses[i*6+j].duration +  ` months</li>
                     <li><span>Course Fees: </span> ` + ((courses[i*6+j].fees == 0) ? "Free" : ("₹" + courses[i*6+j].fees)) + `</li>

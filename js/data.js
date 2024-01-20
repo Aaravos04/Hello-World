@@ -51,7 +51,7 @@ const reviews = [
     {
         name: 'Michel Jackson',
         rating: 4,
-        comment: 'Pariatur repellendus consequuntur itaque libero minus. Maxime, id impedit enim porro praesentium expedita, ipsum numquam vitae, magnam aliquam!'
+        comment: 'Pariatur repellendus consequr itaque libero minus. Maxime, impedit enim porro praesentium expedita, ipsum numquam vitae, porro praesentium!'
     },
     {
         name: 'Linus Torvalds',
@@ -96,7 +96,7 @@ const reviews = [
     {
         name: 'Bill Gates',
         rating: 5,
-        comment: 'Natus voluptatem praesentium eaque nemo cumque fugiat corrupti maxime reiciendis, consectetur ab sit et, eum, tenetur error nostrum nobis id animi!'
+        comment: 'Natus voluptatem praesentium eaque nemo cumque fugiat corrupti maxime reiciendis, consect ab sit et, eum, tenetur error nostrum nobis id animi!'
     },
 
 ]
